@@ -1,0 +1,27 @@
+.navbar {
+    background-color: var(--yellow-theme-nav-background-color);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+
+    &_container{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: inherit;
+        padding: 0px 20px;
+
+        &_logo {
+            color: var(--yellow-theme-mail-color);
+            cursor: pointer;
+        }
+
+        &_menu {
+            display: flex;
+            list-style: none;
+            text-align: center;
+        }
+    }
+}
